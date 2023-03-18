@@ -1,6 +1,7 @@
 # sudoku-solver-bt
-Solving a sudoku puzzle using backtracking method
+Solving a sudoku puzzle using backtracking method and Constraints Satisfaction Problem(CSP) algorithm
 
+For the Backtracking method:
 From an initial state, expand to state1 and to state 2.
 At state2, before generating successors, check for constraint violations. If yes, backtrack to try something else
 
@@ -18,3 +19,7 @@ repeat until end game is reached.
 
 worst case scenario, there is 9 digits in every cell to explore. therefore for m number of unfilled cells.
 time complexity is O(9^m)
+
+For the CSP algorithm,
+
+using the rules of the game to our advantage, we can 
